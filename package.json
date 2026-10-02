@@ -1,0 +1,12 @@
+{
+  "name": "workers-durable-objects-javascript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --config wrangler.jsonc",
+    "deploy": "wrangler deploy --config wrangler.jsonc",
+    "check": "wrangler deploy --dry-run --config wrangler.jsonc"
+  },
+  "devDependencies": { "wrangler": "^4.145.0" }
+}

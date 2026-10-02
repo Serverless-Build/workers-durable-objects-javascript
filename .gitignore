@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+target/
+.wrangler/
+.astro/
+.venv/
+.venv-workers/
+python_modules/
+__pycache__/
+.dev.vars*
+.env*
+worker-configuration.d.ts
